@@ -7,9 +7,9 @@ public class Cheers {
             int runs = Integer.parseInt(args[1]);
             for(int i = 0; i < upperCase.length(); i++) {
                 if (anVowels.indexOf(upperCase.charAt(i)) != -1) {
-                    System.out.println("Give me an " + upperCase.charAt(i) + ":  " + upperCase.charAt(i) + "!");
+                    System.out.println("Give me an " + upperCase.charAt(i) + ": " + upperCase.charAt(i) + "!");
                 } else {
-                    System.out.println("Give me a " + upperCase.charAt(i) + ":  " + upperCase.charAt(i) + "!");
+                    System.out.println("Give me a  " + upperCase.charAt(i) + ": " + upperCase.charAt(i) + "!");
                 }
             }
             System.out.println("What does that spell?");
