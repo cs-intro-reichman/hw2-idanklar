@@ -10,9 +10,8 @@ public class TimeCalc {
         int newMinutes = totalMinutes - (totalHours * 60);
         // //System.out.println("hours: " + hours + " minutes: " + minutes + " min to add: " + minutesToAdd + 
         //                     " new hours: " + newHours + " new minutes: " + newMinutes);
-        if (hours < 10) {
-            System.out.printf("%01d:%02d %n", newHours, newMinutes);
-        }
+            System.out.printf("%02d:%02d %n", newHours, newMinutes);
+
         
         
         
